@@ -44,13 +44,13 @@ export default function Hero() {
         width={400}
         height={100}
         alt='Mansij Ranjit'
-        className='mb-10'
+        className='mb-10 max-md:mt-6 max-md:mb-16 max-md:max-w-[300px]'
       />
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className='text-5xl font-bold mb-4'
+        className='text-5xl font-bold mb-4 text-white'
       >
         Hi, I'm <span className='text-blue-400'>Mansij Ranjit</span>
       </motion.h1>
@@ -73,7 +73,7 @@ export default function Hero() {
         <a
           href='/Mansij-Ranjit-Resume.pdf'
           target='_blank'
-          className='border border-blue-500 px-5 py-3 rounded-full font-semibold hover:bg-blue-500 hover:text-white transition'
+          className='border border-blue-500 px-5 py-3 rounded-full text-white font-semibold hover:bg-blue-500 hover:text-white transition'
         >
           Resume
         </a>

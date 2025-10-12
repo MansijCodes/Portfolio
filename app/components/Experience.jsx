@@ -42,7 +42,9 @@ const experienceData = [
 export default function Experience() {
   return (
     <section id='experience' className='py-20 px-8 bg-gray-900'>
-      <h2 className='text-3xl font-bold text-center mb-12'>Experience</h2>
+      <h2 className='text-3xl font-bold text-center mb-12 text-white'>
+        Experience
+      </h2>
       <div className='max-w-4xl mx-auto space-y-8'>
         {experienceData.map((exp, index) => (
           <motion.div
@@ -53,7 +55,7 @@ export default function Experience() {
             className='relative pl-8 border-l border-gray-700'
           >
             <span className='absolute -left-3 top-2 w-5 h-5 bg-blue-500 rounded-full'></span>
-            <h3 className='text-xl font-semibold'>{exp.role}</h3>
+            <h3 className='text-xl font-semibold text-white'>{exp.role}</h3>
             <p className='text-blue-400'>{exp.company}</p>
             <p className='text-gray-400 text-sm mb-2'>{exp.period}</p>
             {/* <p className='text-gray-300'>{exp.description}</p> */}

@@ -32,13 +32,15 @@ export default function Contact() {
 
   return (
     <section id='contact' className='py-20 px-8 '>
-      <h2 className='text-3xl font-bold text-center mb-8'>Get In Touch</h2>
+      <h2 className='text-3xl font-bold text-center mb-8 text-white'>
+        Get In Touch
+      </h2>
       <p className='text-center text-gray-400 mb-12'>
         Whether you want to collaborate or just say hi, my inbox is open.
       </p>
       <form
         onSubmit={handleSubmit}
-        className='max-w-xl mx-auto flex flex-col gap-4'
+        className='max-w-xl mx-auto flex flex-col gap-4 text-white'
       >
         <input
           type='text'
@@ -47,7 +49,7 @@ export default function Contact() {
           required
           onChange={handleChange}
           value={form.name}
-          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500'
+          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 text-white'
         />
         <input
           type='email'
@@ -56,7 +58,7 @@ export default function Contact() {
           required
           onChange={handleChange}
           value={form.email}
-          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500'
+          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 text-white'
         />
         <textarea
           name='message'
@@ -65,7 +67,7 @@ export default function Contact() {
           required
           onChange={handleChange}
           value={form.message}
-          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500'
+          className='p-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 text-white'
         ></textarea>
         <motion.button
           whileHover={{ scale: 1.05 }}

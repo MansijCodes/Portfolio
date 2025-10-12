@@ -30,7 +30,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id='projects' className='py-20 px-8'>
-      <h2 className='text-3xl font-bold text-center mb-12'>
+      <h2 className='text-3xl font-bold text-center mb-12 text-white'>
         Personal Projects
       </h2>
       <div className='grid md:grid-cols-2 gap-8 max-w-6xl mx-auto'>
@@ -46,13 +46,15 @@ export default function Projects() {
               className='w-full h-56 object-cover'
             />
             <div className='p-6'>
-              <h3 className='text-xl font-semibold mb-2'>{p.title}</h3>
+              <h3 className='text-xl font-semibold mb-2 text-white'>
+                {p.title}
+              </h3>
               <p className='text-gray-400 mb-4'>{p.description}</p>
               <div className='flex gap-2 flex-wrap mb-4'>
                 {p.tech.map((t) => (
                   <span
                     key={t}
-                    className='bg-gray-800 px-3 py-1 rounded-full text-sm'
+                    className='bg-gray-800 px-3 py-1 rounded-full text-sm text-white'
                   >
                     {t}
                   </span>

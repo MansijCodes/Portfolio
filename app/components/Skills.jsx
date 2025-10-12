@@ -17,8 +17,8 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id='skills' className='py-20 bg-gray-900 px-8'>
-      <h2 className='text-3xl font-bold text-center mb-12'>
+    <section id='skills' className='py-20 bg-gray-400 px-8'>
+      <h2 className='text-3xl font-bold text-center mb-12 text-white'>
         Skills & Tech Stack
       </h2>
       <div className='grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-5xl mx-auto'>
