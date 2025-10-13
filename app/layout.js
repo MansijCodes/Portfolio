@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Mansij Ranjit | Software Engineer',
-  description: 'Portfolio of Mansij Ranjit - Software Engineer',
+  title: 'Mansij Ranjit | Computer Engineer',
+  description: 'Portfolio of Mansij Ranjit - Computer Engineer',
 };
 
 export default function RootLayout({ children }) {

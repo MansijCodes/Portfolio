@@ -5,7 +5,7 @@ const experienceData = [
   {
     role: 'Software Engineering Consultant',
     company: 'Harness',
-    period: '2025 March- Present',
+    period: '2025 May- Present',
     description: [
       ' Maintain and build features for 2 main marketing sites – harness.io & traceable.ai',
       ' Support microsites for events, campaigns, and product launches',

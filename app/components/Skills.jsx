@@ -6,7 +6,7 @@ const skills = [
   { name: 'React', icon: '/react.png', href: 'https://react.dev/' },
   { name: 'Node.js', icon: '/node.png', href: 'https://nodejs.org/en' },
   { name: 'Webflow', icon: '/webflow.svg', href: 'https://webflow.com/' },
-  { name: 'Shopify', icon: '/shopify.png', href: 'https://react.dev/' },
+  { name: 'Shopify', icon: '/shopify.png', href: 'https://www.shopify.com/nl' },
   { name: 'Phaser', icon: '/phaser.png', href: 'https://phaser.io/' },
   {
     name: 'AWS Lambda',

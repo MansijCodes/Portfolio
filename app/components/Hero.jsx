@@ -60,8 +60,8 @@ export default function Hero() {
         transition={{ delay: 0.5, duration: 1 }}
         className='text-gray-300 max-w-lg'
       >
-        Software Engineer specializing in building scalable web applications
-        with clean and elegant solutions.
+        Computer Engineer specialized in building scalable web applications with
+        clean and elegant solutions.
       </motion.p>
       <div className='mt-6 space-x-4'>
         <a
