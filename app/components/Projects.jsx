@@ -18,7 +18,7 @@ const projects = [
     image: '/casino-game.png',
   },
   {
-    title: 'Mini Projects',
+    title: 'Small Learning Projects',
     description:
       'Here are some list of small projects I created in my learning phase',
     tech: ['Phaser'],

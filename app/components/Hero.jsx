@@ -44,7 +44,7 @@ export default function Hero() {
         width={400}
         height={100}
         alt='Mansij Ranjit'
-        className='mb-10 max-md:mt-6 max-md:mb-16 max-md:max-w-[300px]'
+        className='mb-10 mt-[112px] max-md:mt-6 max-md:mb-16 max-md:max-w-[300px]'
       />
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
