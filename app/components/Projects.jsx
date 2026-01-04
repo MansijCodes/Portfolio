@@ -21,7 +21,7 @@ const projects = [
     title: 'Small Learning Projects',
     description:
       'Here are some list of small projects I created in my learning phase',
-    tech: ['Phaser'],
+    tech: ['Javascript', 'Html/Css'],
     link: 'https://mansijranjit.github.io/',
     image: '/ninja-survivor.png',
   },
