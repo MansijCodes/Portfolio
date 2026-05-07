@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const experienceData = [
   {
-    role: 'Software Engineering Consultant',
+    role: 'Web Developer',
     company: 'Harness',
     period: '2025 May- Present',
     description: [
@@ -12,6 +12,7 @@ const experienceData = [
       ' Develop responsive, accessible designs using Webflow and/or React',
       ' Implement and optimize for SEO, performance, and analytics',
       ' Collaborate with design, marketing, and engineering teams',
+      'Work in Automation using Zapier',
     ],
   },
   {
