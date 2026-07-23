@@ -46,7 +46,7 @@ export const metadata = {
     siteName: "Mansij Ranjit",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Mansij Ranjit Portfolio",
@@ -61,7 +61,7 @@ export const metadata = {
     title: "Mansij Ranjit | Computer Engineer",
     description:
       "Portfolio of Mansij Ranjit showcasing projects, experience, and technical skills.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
 
   // icons: {
