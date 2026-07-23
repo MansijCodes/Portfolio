@@ -18,7 +18,7 @@ export default function About() {
         transition={{ duration: 0.7 }}
         className='text-gray-300 text-lg leading-relaxed'
       >
-        I'm an Experienced Software Developer with over 3 years in designing,
+        I'm an Experienced Software Developer with over 4 years in designing,
         developing, and maintaining scalable applications. I bring a strong
         foundation in Computer Science, coupled with a passion for
         problem-solving and continuous learning. I have a proven track record of
